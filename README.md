@@ -8,7 +8,7 @@ orientability, genus, and number of holes.
 
 Numerically, these three can be determined from a triangulation of the surface.
 
-from [Herbert Edelsbrunner, CPS296.1: COMPUTATIONAL TOPOLOGY](https://www2.cs.duke.edu/courses/fall06/cps296.1/),
+From [Herbert Edelsbrunner, CPS296.1: COMPUTATIONAL TOPOLOGY](https://www2.cs.duke.edu/courses/fall06/cps296.1/),
 > ... suggests an easy algorithm to recognize a compact
 > 2-manifold given by its triangulation. First search all triangles
 > and orient them consistently as you go until you either succeed,
@@ -23,6 +23,12 @@ from [Herbert Edelsbrunner, CPS296.1: COMPUTATIONAL TOPOLOGY](https://www2.cs.du
 > identify a unique 2-manifold with boundary within the orientable
 > and the non-orientable classes. \
 > https://www2.cs.duke.edu/courses/fall06/cps296.1/Lectures/sec-II-1.pdf
+
+The motivation for this project was the need of finding the topology of a
+2D manifold embedded in 9D Euclidean space that was only implicitly given
+through some difficult to solve equations (see [arXiv:2101.12140](https://arxiv.org/abs/2101.12140)
+for details). Although these can be solved numerically, thus giving a mesh
+of the manifold, to find the topology one needed to triangulate the mesh.
 
 ## Triangulation algorithm
 
