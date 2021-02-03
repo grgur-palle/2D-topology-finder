@@ -46,12 +46,12 @@ of the local planes to one global triangulation of the manifold.
 
 In the script `triangulation_finder.py`, we implement the function
 `triangulation_finder` that from a dense collection of points first
-finds a triangulation of the 2D surface (embedded in d-dimensional
+finds a triangulation of the given 2D surface (embedded in d-dimensional
 Euclidean space), and then prints out its orientability, genus,
 and number of holes.
 
 The conventions used in specifying the mesh (vertices, edges, and
-triangulations are given in the string `mesh_convention`.
+triangulations) are given in the string `mesh_convention`.
 
 The utility functions `refine_mesh` and `relax_mesh` may also
 be of use when refining and relaxing meshes of 2D manifolds.
