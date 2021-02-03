@@ -66,12 +66,12 @@ def refine_mesh(vertices, edges, triangles):
     """
     Creates a finer mesh by subdividing all triangles according to:
                c                           c      
-              /\                          /\      
-             /  \                        /  \     
-            /    \       ----->       f /____\ e  
-           /      \                    /\    /\   
-          /        \                  /  \  /  \  
-         /__________\                /____\/____\ 
+              /\\                          /\\      
+             /  \\                        /  \\     
+            /    \\       ----->       f /____\\ e  
+           /      \\                    /\\    /\\   
+          /        \\                  /  \\  /  \\  
+         /__________\\                /____\\/____\\ 
         a            b              a     d      b
     
     The generated mesh preserves orientations and smallest index conventions,
