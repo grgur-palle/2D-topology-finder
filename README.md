@@ -66,3 +66,7 @@ The function `create_sphere` is included for a demonstration
 of the utility functions. See the jupyter notebook
 `triangulation_demonstration.ipynb` for examples
 of applications of `triangulation_finder`.
+
+The Supplemental Materials of the article that motivated this project,
+published in [Phys. Rev. B ...](https://arxiv.org/abs/2101.12140),
+is available under `Supplemental-Material`.
