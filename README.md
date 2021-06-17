@@ -27,6 +27,7 @@ From [Herbert Edelsbrunner, CPS296.1: COMPUTATIONAL TOPOLOGY](https://www2.cs.du
 The motivation for this project was the need of finding the topology of a
 2D manifold embedded in 9D Euclidean space that was only implicitly given
 through some difficult to solve equations (see [arXiv:2101.12140](https://arxiv.org/abs/2101.12140)
+or [Phys. Rev. B **103**, 214428](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.103.214428)
 for details). Although these can be solved numerically, thus giving a mesh
 of the manifold, to find the topology one needed to triangulate the mesh.
 
@@ -68,5 +69,5 @@ of the utility functions. See the jupyter notebook
 of applications of `triangulation_finder`.
 
 The Supplemental Materials of the article that motivated this project,
-published in [Phys. Rev. B ...](https://arxiv.org/abs/2101.12140),
+published in [Phys. Rev. B **103**, 214428](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.103.214428),
 is available under `Supplemental-Material`.
